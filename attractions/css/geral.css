@@ -1,5 +1,5 @@
 body {
-    background: rgb(236, 235, 234) url("imagens/noise.png");
+    background: rgb(236, 235, 234);
     font-family: arial, sans-serif;
     line-height: 1.6;
 }
@@ -8,32 +8,34 @@ div.container{
     margin: 0 auto;
     width: 960px;
 }
+
+h1 {
+    text-align: center;
+}
+
 h1 a {
     color: rgb(56, 58, 56);
     text-decoration: none;
     transition: 1s;
 }
 
-h1 {
-    text-align: center;
-}
-
-
 h1 a:hover {
-    background-color: #7E9F19;
-    color: #FFF1D6;
+    background-color: rgba(104, 69, 184, .1);
+    color: rgba(77, 78, 90, 0.596);
+    padding: .5%;
+    border-radius: 100px;
 }
 
-div.places {
+.places {
     float: left;
     width: 660px;
 }
 
-div.places p{
+.places p{
     text-align: justify;
 }
 
-div.place {
+.place {
     background-color: #FFF;
     border: 1px solid;
     border-color: #CCC #999 #999 #CCC;
@@ -41,28 +43,29 @@ div.place {
     padding: 10px;
 }
 
-div.place h2 {
-    border-bottom: 1px dashed #7E9F19;
+.place h2 {
+    border-bottom: 1px dashed rgb(111, 112, 106);
     text-align: center;
     margin: 0;
 }
 
-div.place a{
+.place a{
     color: #2C88A7;
     font-weight: bold;
     text-decoration: none; 
 }
 
-div.place img{
-    border: 1px solid #7E9F19;
+.place img{
+    border: 1px solid rgb(111, 112, 106);
     float: left;
     margin: 10px 10px 0 0;
     padding: 2px;
     transition: 1s;
 }
 
-div.place img:hover{
+.place img:hover{
     transform: scale(1.05);
+    border-radius: 20px;
     box-shadow: 2px 5px 8px 5px rgba(179, 182, 184, 0.712);
 }
 
@@ -70,7 +73,7 @@ div.place img:hover{
     clear: both;
 }
 
-div.sidenote{
+.sidenote{
     background-color: #FFFBE4;
     border: 1px solid #C9BC8F;
     float: right;
@@ -78,12 +81,13 @@ div.sidenote{
     width: 260px;
 }
 
-div.sidenote h3{
+.sidenote h3{
     font-size: 14px;
     margin-top: 0;
+    text-align: center;
 }
 
-div.sidenote ol {
+.sidenote ol {
     font-size: 12px;
 }
 
