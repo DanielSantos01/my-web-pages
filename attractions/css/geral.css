@@ -1,0 +1,97 @@
+body {
+    background: rgb(236, 235, 234) url("imagens/noise.png");
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+}
+
+div.container{
+    margin: 0 auto;
+    width: 960px;
+}
+h1 a {
+    color: rgb(56, 58, 56);
+    text-decoration: none;
+    transition: 1s;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h1 a:hover {
+    background-color: #7E9F19;
+    color: #FFF1D6;
+}
+
+div.places {
+    float: left;
+    width: 660px;
+}
+
+div.places p{
+    text-align: justify;
+}
+
+div.place {
+    background-color: #FFF;
+    border: 1px solid;
+    border-color: #CCC #999 #999 #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+div.place h2 {
+    border-bottom: 1px dashed #7E9F19;
+    text-align: center;
+    margin: 0;
+}
+
+div.place a{
+    color: #2C88A7;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+div.place img{
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    transition: 1s;
+}
+
+div.place img:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 5px 8px 5px rgba(179, 182, 184, 0.712);
+}
+
+.clear {
+    clear: both;
+}
+
+div.sidenote{
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+div.sidenote h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+div.sidenote ol {
+    font-size: 12px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+
